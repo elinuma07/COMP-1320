@@ -1,5 +1,5 @@
 /*
-Name: Elisabeth Numa && Elisa H.
+Name: Elisabeth Numa
 Student ID# A01287845
 Course: COMP1320 - Intro to Soft Dev
 Date: September 23rd, 2021
@@ -24,6 +24,10 @@ function getDayOfTheWk(year,month,day) { // finish at home for 6 and zero
     var step3 = parseInt(step2 / 4);
     var step4 = step3 + day;
     var monthCode = null;
+    isLeapYear(year);
+    if (isLeapYear(year) == true && month == "February" && month == "January") {
+        return monthCode = monthCode - 1;
+    }
     if (month == "January" || month == "October") {
         monthCode = 1;
     } else if(month == "May") {
@@ -43,22 +47,15 @@ function getDayOfTheWk(year,month,day) { // finish at home for 6 and zero
     var result = (step1 + step2 + step3 + step4 + monthCode) % 7;
     return (week[result]);
 
-    var leapyear = (year % 100 == 0);
-    var notleapyear = (year % 100 != 0);
-
-    if (year % 2) {
-        return(leapyear);
-        } else if (year % 100 != 0) {
-        return(notleapyear);
+    function isLeapYear(year) {
+        if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
+            return true;
+        } else if(year % 4 == 0 && year % 100 != 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
-    
-    // If the year is evenly divisible by 4, go to step 2. Otherwise, go to step 5.
-    // If the year is evenly divisible by 100, go to step 3. Otherwise, go to step 4.
-    // If the year is evenly divisible by 400, go to step 4. Otherwise, go to step 5.
-    // The year is a leap year (it has 366 days).
-    // The year is not a leap year (it has 365 days).
-    // If the year is evenly divisible by 4, go to step 2. Otherwise, go to step 5.
-// ^ what happens if this is true? (and by true, I mean year % 4 does indeed == 0 )
 
 }
 
