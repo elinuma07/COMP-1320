@@ -1,0 +1,157 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FDFBF9;
+}
+
+.rightsplit {
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.leftsplit {
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x:hidden;
+    word-wrap: break-word;
+    padding-top: 20px;
+}
+
+
+.right {
+    right: 0;
+    background-color:#28282B;
+}
+.left {
+    left: 0;
+    background-color:#FDFBF9;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    align-items: center;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.allcheckbox {
+    color: #FFFFFF;
+}
+/* glow-on-hover to change to btn */
+/* .btn {
+    display: block;
+    border: none;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 8px 16px;
+    color: #000000;
+    cursor: pointer;
+} */
+
+/* .btn:hover {
+    background-color: rgba(113, 109, 109, 0.845);
+    color: #000000;
+} */
+
+.colophon {
+    color: #FFFFFF;
+    /* background-color: transparent;
+    text-align: right;
+    padding-right: 20px; */
+}
+
+h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; 
+    font-size:x-large;
+    /* keeps the words on one line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    /* display: inline-block; */
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; 
+  font-size: x-large;
+  /* keeps the words on one line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+}
+      
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+   /* animation: wheelHueColor 20s infinite; */
+
+/* from, to { color: rgb(236,100,75); }
+10%      { color: rgb(219,10,91); }
+20%      { color: rgb(174,168,211); }
+30%      { color: rgb(89,171,227); }
+40%      { color: rgb(37,116,169); }
+50%      { color: rgb(3,201,169); }
+60%      { color: rgb(22,160,133); }
+70%      { color: rgb(233,212,96); }
+80%      { color: rgb(243,156,18); }
+90%      { color: rgb(236,240,241); }
+} */
+
+/* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  } */

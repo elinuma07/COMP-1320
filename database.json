@@ -1,28 +1,385 @@
 {
-  "users": [
-    {
-      "id": "54az3",
-      "fullName": "Armaan Dhanji",
-      "aboutMe": "Hi, my name is Armaan Dhanji but I'm better known by my nickname @armaand, and I'm a teacher in the School of Computing at BCIT.",
-      "knownTechnologies": [
-        "HTML",
-        "CSS",
-        "JS",
-        "Git",
-        "React",
-        "Node.js"
-      ],
-      "githubUrl": "github.com/adhanji8",
-      "twitterUrl": "twitter.com/bcit",
-      "favoriteBooks": [
-        "The Lord of the Rings - J. R. R. Tolkien",
-        "Foundation Series - Isaac Asimov",
-        "Cracking the Coding Interview - Gayle Laakmann",
-        "Clean Code - Rob Martin",
-        "A Brief History of Time - Stephen Hawking"
-      ],
-      "favoriteArtists": []
-    },
-    {}
-  ]
+	"users": [
+		{
+			"id": "ArmaanDhanjiSfij54az3",
+			"fullName": "Armaan Dhanji",
+			"aboutMe": "Hi, my name is Armaan Dhanji but I'm better known by my nickname @armaand, and I'm a teacher in the School of Computing at BCIT.",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS",
+				"Git",
+				"React",
+				"Node.js"
+			],
+			"githubUrl": "https://github.com/adhanji8",
+			"twitterUrl": "https://twitter.com/bcit",
+			"favoriteBooks": "The Lord of the Rings - J. R. R. Tolkien, Foundation Series - Isaac Asimov, Cracking the Coding Interview - Gayle Laakmann, Clean Code - Rob Martin, A Brief History of Time - Stephen Hawking",
+			"favoriteArtists": "U2"
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 781
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 202
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 866
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 466
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 301
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 50
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 560
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 245
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"HTML",
+				"CSS",
+				"JS"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 955
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 955
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 486
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 265
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 280
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 933
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 39
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 770
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 628
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 632
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 843
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 308
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 33
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 368
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 908
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 700
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 315
+		},
+		{
+			"fullName": "Eli",
+			"aboutMe": "Eli",
+			"knownTechnologies": [
+				"CSS",
+				"JS",
+				"Git"
+			],
+			"githubUrl": "https://www.github.com",
+			"twitterUrl": "https://www.twitter.com",
+			"favoriteBooks": "na",
+			"favoriteArtists": "na",
+			"id": 636
+		}
+	]
 }

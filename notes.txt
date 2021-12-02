@@ -1,0 +1,28 @@
+Milestone 2:
+// Videos to check
+
+Allowed to use express.js to use this.
+its to have a server that can have a thingy be sent back to the browswer. it won't be so "deep"
+$npm install express --save
+
+We will be creating a DevCard - digital business card for a developper - like a linkedIn page for a dev.
+
+At minimum, the options shown on the notion m2 page needs to be used. the program is building a website for them.
+a website has been generated for this user - there needs to be a way to generate a URL.
+localhost:8000/elisabethnuma and it would lead to the page. we will not be "creating" a URL page.
+you can have as many users and they can sign up one by one... not like added a list? will there be a database necessary.
+// the backend will build websites for us.
+
+1.) Design the homepage - Armaan doesn't care about CSS design too much.
+2.) all information needs to be placed in a database with the information about it. they need to be added individually.
+3.) then the DB information will be put on a HTML page and then it should up on the HTML build page.
+4.) There needs to be more users added and they have their own id
+
+localhost:8007/people/1 -> should pull up the id required
+start by creating a page in the views folder and it has to end with .ejs
+you want to put it in the database.json that's already made for you.
+then you want to take the users info from the json folder and then put it in the html page already build for us.
+the name always has to change everytime the ID changes. it has to change in the homepage.ejs
+every user gives you their own version of the page.
+
+Quiz on HOF and there will be practice questions and solutions - this will be written.

@@ -10,11 +10,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="signin.css" rel="stylesheet">
-  <link rel="stylesheet" href="glowbutton.css">
+  <link href="/public/signin.css" rel="stylesheet">
+  <link rel="stylesheet" href="/public/glowbutton.css">
 </head>
 
-<!-- <script src="index.js"></script> -->
+<script src="index.js"></script>
 
 
 <body class="text-center">
@@ -51,19 +51,19 @@
 
           <!-- <div class="form-floating">
             <input type="email" class="form-control" autofocus placeholder="name@my.bcit.ca" name="email" id="floatingEmail"
-               pattern="[A-Za-z0-9]+(@example.com)">
+              required="required" pattern="[A-Za-z0-9]+(@example.com)">
             <label for="email"></label>
           </div> -->
 
           <div class="form-floating">
-            <input type="name" class="form-control" autofocus placeholder="Your Name" name="fullName" id="floatingName"
-            name="fullName">
+            <input type="name" class="form-control" autofocus placeholder="Your Name" name="name" id="floatingName"
+              required="required">
             <label for="name"></label>
           </div>
 
           <div class="form-floating">
             <input type="text" class="form-control" id="floatingAboutMe" placeholder="About Me"
-            name="aboutMe"/>
+              required="required"/>
             <label for="About Me"></label>
           </div>
 
@@ -71,37 +71,36 @@
             <label>
               <h2 class="subtitle">Your skills</h2>
               <br>
-              <input class="checkbox" type="checkbox" value="HTML" name="knownTechnologies"> HTML
-              <input class="checkbox" type="checkbox" value="CSS" name="knownTechnologies"> CSS
-              <input class="checkbox" type="checkbox" value="JS" name="knownTechnologies"> JS
-              <input class="checkbox" type="checkbox" value="Git" name="knownTechnologies"> Git
-              <input class="checkbox" type="checkbox" value="React" name="knownTechnologies"> React
-              <input class="checkbox" type="checkbox" value="Node.js" name="knownTechnologies"> Node.js
+              <input class="checkbox" type="checkbox" value="remember-me"> HTML
+              <input class="checkbox" type="checkbox" value="remember-me"> CSS
+              <input class="checkbox" type="checkbox" value="remember-me"> JS
+              <input class="checkbox" type="checkbox" value="remember-me"> Git
+              <input class="checkbox" type="checkbox" value="remember-me"> React
+              <input class="checkbox" type="checkbox" value="remember-me"> Node.js
             </label>
           </div>
 
           <div class="form-floating">
-            <input type="url" class="form-control" id="floatingPassword" placeholder="GitHub URL" id="homepage"
-            name="githubUrl"/>
+            <input type="text" class="form-control" id="floatingPassword" placeholder="GitHub URL" id="homepage"
+              required="required" />
             <label for="GitHub URL"></label>
           </div>
 
           <div class="form-floating">
-            <input type="url" class="form-control" id="floatingPassword" placeholder="Twitter URL" id="homepage"
-            name="twitterUrl"/>
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Twitter URL" id="homepage"
+              required="required" />
             <label for="Twitter URL"></label>
           </div>
           <br>
           <div class="form-floating">
             <input type="text" class="form-control" id="floatingFavBooks" placeholder="Favourite Books (Separate by commas)" id="password"
-            name="favoriteBooks" />
+              required="required" />
             <label for="floatingFavBooks"></label>
-
           </div>
 
           <div class="form-floating">
             <input type="text" class="form-control" id="floatingFavArtists" placeholder="Favourite Artists (Separate by commas)" id="password"
-            name="favoriteArtists" />
+              required="required" />
             <label for="floatingFavArtists"></label>
           </div>
 
@@ -116,8 +115,6 @@
           <p class="form__text">
             <a href="#" class="form__link">Don't have an account? Click here!</a>
           </p> -->
-
-
     </div>
   </div>
   </form>

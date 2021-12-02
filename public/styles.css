@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* <%= user.fullName.split(' ')[0] %> */
 body {
   color: white;
   background-color: #22212c;
