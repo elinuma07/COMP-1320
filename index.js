@@ -72,22 +72,22 @@ app.post("/myForm", (req, res) => {
 
 app.get("/people/:id", (req, res) => {
   const id = req.params.id;
+  const mapping = {
+    HTML: "fa-html5",
+    CSS: "fab fa-css3-alt",
+    JS: "fab fa-js",
+    Git: "fab fa-git-alt",
+    NodeJS: "fab fa-node-js",
+    React: "fab fa-react",
+  };
   // we have to get the id from teh url
   // look in the db and find out in the fs.readfile
   fs.readFile("database.json", "utf-8")
     .then((content) => JSON.parse(content).users)
-    .then((listOfUsers) => {
-      listOfUsers.find((user) => {
-        if (user.id == id) {
-          // the equal is showing up as a string and it should be an number so its double equal
-          // and not triple equal
-          return user;
-        }
-      });
-    })
-    // writeFile is like render homepage
+    .then((listOfUsers) => listOfUsers.find((user) => user.id == id))
     .then((user) => {
-      return res.render("homepage", { user });
+      console.log(user);
+      res.render("homepage", { user, mapping });
     })
     .catch((err) => err);
 });

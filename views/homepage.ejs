@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- writing = means you want to print the variable and not = just means you're writing code like regular -->
-    <title>'s DevCard</title>
+    <title><%= user.fullName %>'s DevCard</title>
     <!-- Another option instead of split would have been to create an input for JUST the firstname -->
     <!-- We want to insert the username's First name on there. -->
     <!--  -->
@@ -32,7 +32,8 @@
                     </div>
                     <div class="infos">
                       <span
-                        ><i class="fas fa-user-circle"></i>&nbsp;&nbsp;</span
+                        ><i class="fas fa-user-circle"></i>&nbsp;&nbsp;<%=
+                        user.fullName %></span
                       >
                       <span
                         ><i class="fas fa-briefcase"></i>&nbsp;&nbsp;Full Stack
@@ -93,27 +94,18 @@
                     <i class="fas fa-terminal"></i>&nbsp;Technologies
                   </h1>
                   <div class="mini-cards">
-                    <% user.knownTechnologies.forEach(technology => { %>
+                    <% if (typeof user.knownTechnologies == "string") { %>
                     <span
                       class="has-dflex-center bs-md"
-                      title="<%= technology %>"
-                      ><i class="fab fa-css3-alt"></i
+                      title="<%= user.knownTechnologies %>"
+                      ><i class="fab <%= mapping[user.knownTechnologies] %>"></i
                     ></span>
-                    <% }) %>
-
-                    <span class="has-dflex-center bs-md" title="CSS"
-                      ><i class="fab fa-css3-alt"></i></span
-                    ><span class="has-dflex-center bs-md" title="HTML"
-                      ><i class="fab fa-html5"></i></span
-                    ><span class="has-dflex-center bs-md" title="JS"
-                      ><i class="fab fa-js"></i></span
-                    ><span class="has-dflex-center bs-md" title="Git"
-                      ><i class="fab fa-git-alt"></i></span
-                    ><span class="has-dflex-center bs-md" title="Node JS"
-                      ><i class="fab fa-node-js"></i></span
-                    ><span class="has-dflex-center bs-md" title="React"
-                      ><i class="fab fa-react"></i
+                    <% } else { %> <% user.knownTechnologies.forEach(skill => {
+                    %>
+                    <span class="has-dflex-center bs-md" title="<%= skill %>"
+                      ><i class="fab <%= mapping[skill] %>"></i
                     ></span>
+                    <% }) %> <% } %>
                   </div>
                 </div>
                 <div class="lx-row lx-card">
@@ -122,7 +114,7 @@
                   </h1>
                   <div class="text">
                     <ol>
-                      <% user.favoriteBooks.forEach(book => { %>
+                      <% user.favoriteBooks.split(",").forEach(book => { %>
                       <li>
                         <p><b> <%= book %> </b>&nbsp;- J. R. R. Tolkien</p>
                       </li>
